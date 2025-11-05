@@ -1,5 +1,6 @@
 using AIAssistant.Client.Pages;
 using AIAssistant.Components;
+using AIAssistant.Components.Player.Data;
 using AIAssistant.Configurations;
 using AIAssistant.Data;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +13,8 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddDbContext<AppDbContext>(options => 
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IVideoRepository, VideoRepository>();
 
 var app = builder.Build();
 
