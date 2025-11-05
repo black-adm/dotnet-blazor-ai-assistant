@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3+9c99L9f7KmmjbkIwxr3OuRGEpk43Mg6c2r3bgBVlQ=",
+  "Hash": "kHkppVR7KWSi0ya2cQSvy2T2T7ZT1kHyAzkYE/m6t+M=",
   "Source": "AIAssistant",
   "BasePath": "_content/AIAssistant",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "AIAssistant.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "RuntimeIdentifier;SelfContained;WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -7938,6 +7938,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant/wwwroot/images/avatar-assistent.png",
+      "SourceId": "AIAssistant",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant/wwwroot/",
+      "BasePath": "_content/AIAssistant",
+      "RelativePath": "images/avatar-assistent.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/avatar-assistent.png"
+    },
+    {
+      "Identity": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant/wwwroot/images/avatar-user.png",
+      "SourceId": "AIAssistant",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant/wwwroot/",
+      "BasePath": "_content/AIAssistant",
+      "RelativePath": "images/avatar-user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/avatar-user.png"
     }
   ]
 }
