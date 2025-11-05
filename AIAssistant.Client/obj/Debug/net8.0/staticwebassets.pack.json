@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant.Client/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant.Client/obj/Debug/net8.0/compressed/0i64pka5jf.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant.Client/wwwroot/appsettings.Development.json",
+      "PackagePath": "staticwebassets/appsettings.Development.json"
+    },
+    {
+      "Id": "/home/blackadm/Work/Dotnet/AIAssistant/AIAssistant.Client/wwwroot/appsettings.json",
+      "PackagePath": "staticwebassets/appsettings.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.AIAssistant.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.AIAssistant.Client.props",
+      "PackagePath": "build\\AIAssistant.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AIAssistant.Client.props",
+      "PackagePath": "buildMultiTargeting\\AIAssistant.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AIAssistant.Client.props",
+      "PackagePath": "buildTransitive\\AIAssistant.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

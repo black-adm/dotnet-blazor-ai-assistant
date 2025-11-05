@@ -1,5 +1,6 @@
 using AIAssistant.Client.Pages;
 using AIAssistant.Components;
+using AIAssistant.Configurations;
 using AIAssistant.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -33,5 +34,7 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(AIAssistant.Client._Imports).Assembly);
+
+app.UseDbMigrationHelper();
 
 app.Run();
